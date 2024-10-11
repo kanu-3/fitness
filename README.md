@@ -1,1 +1,1 @@
-This is a responsve fitness website.
+This is a responsive fitness website.
