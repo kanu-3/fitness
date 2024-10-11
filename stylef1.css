@@ -1,0 +1,170 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+#navbar{
+    display:flex;
+    align-items: center;
+}
+#logo{
+    padding: 20px;
+    margin:20px;
+}
+#logo img{
+    height: 100px;
+    width: 100px;
+    padding: 3px;
+    object-fit: fill;
+    border-radius: 100%;
+}
+#navbar{
+    position: relative;
+    display: flex;
+    height: 10%;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#navbar ul{
+    display:flex;
+}
+#navbar::before{
+    content:"";
+    background-color: rgb(92, 96, 100);
+    position: absolute;
+    height:100%;
+    width: 100%;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: medium;
+}
+#navbar ul li a{
+    color: rgb(228, 236, 238);
+    display:block;
+    padding:12px 12px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: rgb(55, 10, 189);
+    background-color: white;
+    display:block;
+    padding:6px 6px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+#HOME{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+.primary{
+    text-align: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.secondary{
+    text-align: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 2rem;
+}
+h1{
+    font-size: 3.5rem;
+    padding: 12px;
+    font: bold;
+}
+#HOME p{
+    color: azure;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#HOME::before{
+    content: "";
+    background: url("https://cdn.pixabay.com/photo/2017/01/16/15/28/boxer-1984344_1280.jpg") no-repeat center center/cover;
+    position: absolute;
+    height: 60%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+.btn{
+    padding: 6px 10px;
+    border: solid 2px rgb(20, 20, 20);
+    color: blue;
+    margin: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+#services{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+.box img{
+    border-radius: 10px;
+    opacity: 0.5;
+}
+.box{
+    padding:20px;
+    border: 2px solid black;
+    margin:3px 6px;
+    border-radius: 28px;
+}
+#client{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    margin: 12px;
+}
+#client img{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    height:100px
+}
+#hola{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hi{
+    border-radius: 10px;
+    border: solid 2px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+#contactbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contactbox form{
+    width: 40%;
+}
+#contactbox textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.5rem;
+}
+#contactbox input{
+    width: 100%;
+    padding: 0.5rem;
+}
+footer{
+    background: black;
+    height:30px;
+    color: azure;
+}
+
